@@ -1,0 +1,15 @@
+.play-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;           
+
+
+
+        
+}
+@media screen and (max-width: 900px) {
+    .play-container{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}

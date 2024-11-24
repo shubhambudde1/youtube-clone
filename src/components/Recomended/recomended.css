@@ -1,0 +1,43 @@
+.recomended{
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.recomended-videos{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.video-card{
+    
+    gap: 20px;
+}   
+.video-card img{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;    
+}
+.video-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.video-info h3{
+    font-size: 17px;
+}
+
+.video-info p{
+    font-size: 15px;
+    color: #888;
+}
+
+.video-info span{
+    font-size: 13px;
+    color: #888;    
+}
+@media screen and (max-width: 900px) {
+    .recomended{
+        display: none;
+    }
+}

@@ -1,0 +1,136 @@
+.sidebar{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 225px;
+    height: 100vh;
+    background: #fff;
+    padding-left: 2%;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+.shortcut-links img{
+    width: 20px;
+    margin-right: 20px;
+}
+.side-link{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+}
+.Subscribed_list h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+
+.Subscribed_list img{
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.small-sidebar{
+    width: 5%;
+}
+
+.small-sidebar p{
+    display: none;
+}
+
+.small-sidebar h3{
+    display: none;
+}
+
+.small-sidebar hr{
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+/* Scrollbar styles */
+.sidebar::-webkit-scrollbar {
+    width: 0;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.small-slidebar{
+    width: 5%;
+    padding-left: 0;
+}
+
+.small-slidebar .shortcut-links a p,
+.small-slidebar .Subscribed_list h3,
+.small-slidebar .Subscribed_list a p {
+    display: none;
+}
+
+.small-slidebar .shortcut-links a img,
+.small-slidebar .Subscribed_list a img {
+    margin-right: 0;
+}
+
+.small-slidebar hr {
+    width: 50%;
+    margin-bottom: 25px;
+}
+.small-slidebar p{
+    display: none;
+}
+.side-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.side-link img {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.side-link p {
+    font-size: 14px;
+}
+
+.small-slidebar .side-link {
+    width: 100%;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.small-slidebar .side-link img {
+    margin-right: 0;
+}
+.side-link.active img{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #5a5a5a;
+}
+@media (max-width: 900px) {
+    .sidebar{
+        display: none;
+    }
+}   
+
